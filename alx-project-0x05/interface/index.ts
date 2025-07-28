@@ -14,3 +14,9 @@ export interface ButtonProps {
 export interface PageRouteProps {
   pageRoute: string
 }
+
+export interface CountContextProps {
+  count: number
+  increment: () => void
+  decrement: () => void
+}
